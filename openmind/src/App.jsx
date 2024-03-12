@@ -9,7 +9,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<MainPage />} />
-      <Route path="/">
         <Route index element={<MainPage />} />
         <Route path="list">
           <Route index element={<ListPage />} />
