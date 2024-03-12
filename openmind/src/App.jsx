@@ -8,7 +8,7 @@ import AnswerPage from './Pages/AnswerPage';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainPage />} />
+      <Route path="/" element={<MainPage />}>
         <Route index element={<MainPage />} />
         <Route path="list">
           <Route index element={<ListPage />} />
